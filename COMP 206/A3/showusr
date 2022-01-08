@@ -1,0 +1,33 @@
+#Do not include a sh-bang (#!/bin/bash) in this script.
+#Do not write code outside of this function body
+#
+#Philippe Bergeron
+#260928589
+function fname(){
+	no_args=$# #gives the number of arguments
+
+
+	if [[ $no_args = 0 ]] # checks if the number of arguments is equal to 0
+	then
+		FNAME=ERROR #Gives the FNAME ERROR
+		return 1
+		exit 0
+	fi
+	userid=$1 # The first argument is the userid
+	users=`who | grep $userid | wc -l` #Gives a list of users with the userid
+
+	if [[ -z  $users ]] #if no users, then gives FNAME to NOTFOUND 
+	then
+		FNAME=NOTFOUND
+		return 0
+	else
+		name=`pinky $userid -f | cut -d' ' -f 2 | head -n 1` #gives only the name from the pinky command
+		FNAME=$name #gives FNAME to name
+		return 0
+	fi
+	
+
+	
+
+
+}

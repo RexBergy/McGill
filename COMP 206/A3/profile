@@ -1,0 +1,20 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /usr/socs/Profile ]; then
+        . /usr/socs/Profile
+fi
+
+# User specific aliases and functions
+#Philippe Bergeron
+#260928589
+echo "Welcome to $HOSTNAME!" #prints welcome to the host server
+sessions=`who | grep $USER | wc -l` #gives the number of user sessions
+
+echo "You have $sessions login sessions to the host." #prints the number of sessions
+alias comp206='cd ~/Projects/COMP206' #gives comp206 the alias of the cd to COMP206 
+PS1='\u@\h\[[\t]:\w\$ ' # gives userName, server, time and current directory 
+fortune #gives a quote
+echo "Remember work smart, not hard!" #my favorite quote, my own addition
+
+
