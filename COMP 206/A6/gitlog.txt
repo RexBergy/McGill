@@ -1,0 +1,41 @@
+commit fd619790c975db9da5651f618d16971789846710
+Author: Philippe BERGERON <pberge30@teaching.CS.McGill.CA>
+Date:   Tue Apr 14 22:57:16 2020 -0400
+
+    Final version of utils.c
+
+commit ce2795ad829f60b2c60aec17ec75bd8b6887b9f2
+Author: Philippe BERGERON <pberge30@teaching.CS.McGill.CA>
+Date:   Tue Apr 14 22:55:56 2020 -0400
+
+    Final version of poly.c
+
+commit db43624623f234e7d8816604f3f0beb7451bc4ef
+Author: Philippe BERGERON <pberge30@teaching.CS.McGill.CA>
+Date:   Tue Apr 14 22:55:13 2020 -0400
+
+    Final version of polyapp.c
+
+commit c73ce42324b9fe61c43f6ee816e3fde83bd0ef97
+Author: Philippe BERGERON <pberge30@teaching.CS.McGill.CA>
+Date:   Sun Apr 12 16:09:47 2020 -0400
+
+    Added: addPolyTerm & evaluatePolynomial
+
+commit 6a400faf3280619de81d9d24f8961e6a682145da
+Author: Philippe BERGERON <pberge30@teaching.CS.McGill.CA>
+Date:   Sun Apr 12 15:37:54 2020 -0400
+
+    This is an initial skeleton version of poly.c
+
+commit deeb5e0aa2bf04a907748add01b808382df9393c
+Author: Philippe BERGERON <pberge30@teaching.CS.McGill.CA>
+Date:   Sun Apr 12 15:20:23 2020 -0400
+
+    This is the first version of utils.c
+
+commit 6fe97ceece40e7af664fc3edaca32e8b147901e3
+Author: Philippe BERGERON <pberge30@teaching.CS.McGill.CA>
+Date:   Sun Apr 12 13:55:13 2020 -0400
+
+    This is the first version of polyapp.c. Without utils.c
